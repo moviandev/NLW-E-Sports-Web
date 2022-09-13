@@ -1,8 +1,23 @@
 import './App.css'
 
+interface ButtonProps {
+  title: string;
+}
+
+const Button = (props: ButtonProps) => (
+  <button>
+    {props.title}
+  </button>
+);
+
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <div>
+      <Button title="Send" />
+      <Button title="Send" />
+      <Button title="Send" />
+      <Button title="Send" />
+    </div>
   )
 }
 
