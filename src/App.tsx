@@ -1,4 +1,5 @@
 import './App.css'
+import './styles.css'
 
 interface ButtonProps {
   title: string;
